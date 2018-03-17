@@ -94,7 +94,6 @@ public class QuizActivity extends AppCompatActivity {
         Log.i(TAG, "onSaveInstanceState");
         savedInstanceState.putInt(KEY_INDEX, mCurrentIndex);
     }
-
     @Override
     public void onStop() {
         super.onStop();
